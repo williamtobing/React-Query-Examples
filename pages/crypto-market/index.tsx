@@ -29,9 +29,9 @@ type Price = {
   market_cap: number;
 };
 
-type PageProps = {
-  initialPrice: Price[];
-};
+// type PageProps = {
+//   initialPrice: Price[];
+// };
 
 const getMarket = async (page = 1) => {
   const URL = `https://api.coingecko.com/api/v3/coins/markets?vs_currency=idr&per_page=10&page=${page}`;

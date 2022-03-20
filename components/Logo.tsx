@@ -21,7 +21,7 @@ export const Logo = forwardRef<ImageProps, "img">((props, ref) => {
   return (
     <chakra.img
       animation={animation}
-      src="https://react-query.tanstack.com/_next/static/images/emblem-light-5d1cdce6c8bbb006ac6cefb8e1642877.svg"
+      src="https://react-query.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg"
       ref={ref}
       {...props}
     />

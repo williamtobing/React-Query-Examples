@@ -62,18 +62,20 @@ const Layout = ({
         <footer style={{ backgroundColor: "white" }}>
           <Container maxW={{ xl: "1200px" }}>
             <Flex>
-              <Box>
+              <Box color="#000000">
                 <span>React Query Example</span>
               </Box>
               <Spacer />
               <Box>
-                <Link href="https://github.com/sastranababan" isExternal mx={4}>
+                <Link href="https://github.com/williamtobing" isExternal mx={4}>
                   <Icon as={FaGithub} w={6} h={6} color="#24292e" />
                 </Link>
-                <Link href="https://www.youtube.com/sastranababan" isExternal>
+                <Link href="https://www.youtube.com/robots.txt" isExternal>
                   <Icon as={FaYoutube} w={6} h={6} color="#c4302b" />
                 </Link>
-                <Code ml={4}>Sastra Nababan</Code>
+                <Code ml={4} color="#000000">
+                  williams
+                </Code>
               </Box>
             </Flex>
           </Container>
